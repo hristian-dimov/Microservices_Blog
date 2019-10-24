@@ -1,0 +1,91 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Blog Posts
+-------------------------------------------------- */
+#blog-posts {
+    overflow: hidden;
+}
+
+#blog-posts .post {
+    border: 1px solid #000;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    width: 48%;
+    float: left;
+}
+
+#blog-posts .post-body {
+    margin: 10px;
+}
+
+#blog-posts .post .category-name {
+    border: 1px dotted #000;
+    border-radius: 10px;
+    padding: 3px;
+    background: #3a87ad;
+    color: #FFF;
+}
+
+#create-blog-post ul {
+    margin: 0; 
+    padding: 0;
+}
+
+#create-blog-post li {
+     list-style-type: none;
+ }

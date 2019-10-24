@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Blog Posts</h1>
+
+    <div id="blog-posts">Loading...</div>
+</div>
+
+<div class="text-left">
+    <h2>Create new blog post</h2>
+
+    <div id="create-blog-post">
+        <form method="post" id="create-blog-post-form">
+            <div class="blog-post-name">
+                Blog name:
+                <input type="text" name="name" id="blog-post-name" />
+            </div>
+
+            <div id="blog-post-categories">Loading...</div>
+            
+            <div class="buttons">
+                <input type="button" name="submit" id="submit" value="Create" />
+            </div>
+        </form>
+    </div>
+</div>

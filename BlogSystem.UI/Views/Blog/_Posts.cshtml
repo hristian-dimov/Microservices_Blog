@@ -1,0 +1,15 @@
+﻿@model IList<PostModel>
+
+@foreach (var blogPost in Model)
+{
+    <div class="post">
+        <div class="post-body">@blogPost.Name</div>
+
+        <div class="post-footer">
+            @foreach (var category in blogPost.PostCategories)
+            {
+                <span class="category-name">@category.Name</span>
+            }
+        </div>
+    </div>
+}
